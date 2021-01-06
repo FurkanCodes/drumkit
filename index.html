@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metal Drum Kit</title>
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+
+<body>
+
+    <div class="keys">
+        <div data-key="72" class="key">
+            <kbd>H</kbd>
+            <span class="sound">kick</span>
+        </div>
+        <div data-key="71" class="key">
+            <kbd>G</kbd>
+            <span class="sound">snare</span>
+        </div>
+        <div data-key="82" class="key">
+            <kbd>R</kbd>
+            <span class="sound">hihat</span>
+        </div>
+        <div data-key="73" class="key">
+            <kbd>I</kbd>
+            <span class="sound">crash</span>
+        </div>
+        <div data-key="85" class="key">
+            <kbd>U</kbd>
+            <span class="sound">tom right</span>
+        </div>
+        <div data-key="89" class="key">
+            <kbd>y</kbd>
+            <span class="sound">tom left</span>
+        </div>
+    </div>
+
+
+<audio data-key="72" src="sounds/Kick.mp3"></audio>
+<audio data-key="71" src="sounds/Snare.mp3"></audio>
+<audio data-key="82" src="sounds/Hat.mp3"></audio>
+<audio data-key="73" src="sounds/Crash.mp3"></audio>
+<audio data-key="85" src="sounds/Tomright.mp3"></audio>
+<audio data-key="89" src="sounds/Tomleft.mp3"></audio>
+</body>
+</html>
+
+<script src="script.js"></script>
